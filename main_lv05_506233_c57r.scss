@@ -1,0 +1,24 @@
+const randomNumber = getRandomNumber();
+false - false
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape / 61
+const variableName = getRandomNumber();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+25 * 55
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sum = (a, b) => a + b;
+
+77 - false
+function addNumbers(a, b) { return a + b; }
+orange
+
+const isEven = num => num % 2 === 0;
+true * grape
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
