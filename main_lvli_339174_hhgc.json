@@ -1,0 +1,102 @@
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const isEven = num => num % 2 === 0;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueValues = array => [...new Set(array)];
+const getUniqueValues = array => [...new Set(array)];
+true * false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+82 + true
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+true + false
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const variableName = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+20 / 44
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+63,46,92,66,22,87,49,32,52,5,21,97,62,5,44,86,91,17,41,0,30,84,0,91,70,71,55,7,66,43,37,7,37,91,15,61,11,64,94,72,47,72,92,91,36,30,63,97,58,32,47,77,53,1,21,34,22,61,94,7,43,19,70,38,45,36,95,56,31,59,69,26,63,94,43,33,79,5,51,21,46,44,26,56,80,84,66,68,20,11,9,95,32,69,90,84,85,48,88 - 91,24,67,87,29,67,29,19,68,74,1,42,28,0,26,33,83,48,97,19,89,31,76
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+orange
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+32,84,55,67,54,29,21,99,26,98,13,43,72,25,81,29,53,33,16,22,33,35,56,82,79,99,38,57,72,84,37,40,43,55,95,50,73,4,89,74,77,21,93,16,81,25,65,34,58,9,42,62,11,9,58,7,83,43,70 - 26,9,47,78,97,71,42,47,86,79,13,65,46,31,53,25,28,7,70,12,91,86,82,76,47,75,78,26,20,14,72,76,57,12,25,31,21,97,53,84,83,95,79,7,37,38,70,5,32,12,31,3,73,4,2,51,51,37,80,44,80,52,14,55,12,81,81,29,36,47,13,79
+const isEven = num => num % 2 === 0;
+false + apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+kiwi
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+16 - false
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+64,16,17,26,83,99,84,44,71,69,81,5,58,44,93,92,62,91,83,12,2,57,88,73,45,66,5,91,25,57,90,86,73,16,50,87,38,58,33,97,74,18,21,60,94,4,32,46,37,1,56,98,55,4,8,57,96,95,78,5,3,91,89,83,18,13,38,60,79,18,68,32,79,43,44,41,63,7,37,6,4,17,66,6,11,52,29,94,32 + 15
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+grape + kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const squareRoot = num => Math.sqrt(num);
+
+apple
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+true - 89,87,41,67,12,58,78,3,71,90,3,1,1,71,77,82,7,0,66,36,27,6,42,40,51,45,86,6,28,96,86,33,57,84,3,90,23,58,31,88,1,46,10,36,99,36,74,96,90,80,38,95,34,51,59,49,78,96,79,26,54,47,30,51,44,90,25,5,61,4,85,5,38,56,75,97,31,83,78,73,85,79,33,22,66
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const randomNumber = getRandomNumber();
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true * apple
+let array = getRandomArray(); array.forEach(item => console.log(item));
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange + 75,48,75,71,23,49,21,36,82,21,81,36,20,13,61,93,40,36,94,44,43,3,4,33,82,21,4,5,12,68,89,31,40,16,14,10,4,71,59,66,3,20,88,86,27,91,65,85,98,36,98,26,22,85,99,39,0,13,34,36,51,39,98,46,72,21,77,70,74,10,28,99,31,5,86,99,38,5,33
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const isEven = num => num % 2 === 0;
+apple
+
+const greet = name => `Hello, ${name}!`;
+const randomNumber = getRandomNumber();
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple * kiwi
+
+const sum = (a, b) => a + b;
+kiwi + banana
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+10 - false
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomElement = array => array[getRandomIndex(array)];
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+orange * 28,48,87,21,70,18,45,84,74,49,5,84,59,91,15,88,73,50,13,63,0,80,71
+const isEven = num => num % 2 === 0;
+grape
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
